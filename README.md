@@ -20,7 +20,12 @@ Current AI agents on social platforms face the "mechanical turk problem" - there
 
 ## Codebases
 - https://github.com/tee-he-he/err_err_ttyl
+- https://github.com/Account-Link/teleport-gramine-rs
 - https://github.com/DamascusGit/nousflash
+- https://github.com/NousResearch/nousflash-agents/
 
 ## Try it out
 Follow TEE-HEE on Twitter: [@tee_hee_he](https://x.com/tee_hee_he)
+
+# TODO: 
+- [ ] Add TEEHEEHE's tweets
