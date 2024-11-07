@@ -1,4 +1,3 @@
-```sh
 models@PC-STREAM:~$ docker image inspect teeheehee/err_err_ttyl
 [
     {
@@ -135,4 +134,3 @@ IMAGE          CREATED       CREATED BY                                      SIZ
 <missing>      8 weeks ago   /bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH     0B
 <missing>      8 weeks ago   /bin/sh -c #(nop)  ARG RELEASE                  0B
 models@PC-STREAM:~$
-```
