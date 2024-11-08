@@ -1,11 +1,15 @@
-# Using TEEs for Social
-2pmflow
-2024-10-09
+---
+title: "Using TEEs for Social"
+date: 2024-10-09
+author: "2pmflow"
+url: https://collective.flashbots.net/t/using-tees-for-social/3955
+---
+
 Context
 
 Outside of MEV, TEEs unlock a new set of social experiences due to their trust guaran(tee)s.
 
-Last Thursday (10/3/24), the Azuki team dabbled with TEEs with Flashbots in a social context on Twitter as an introduction to the community on what TEEs are and what they enable. Some background: Bobu is a fractionalized Azuki NFT who is beloved by the Azuki audience. The stunt involved letting a well-known community member tweet through Bobu’s twitter account. TEEs were central to this experience for guaranteeing through auditability that the community member could only tweet from Bobu’s account under a restricted set of conditions (one time max), even if the underlying OAuth scope granted did not have any such restriction. Below I will break down how the security for this flow works.
+Last Thursday (10/3/24), the Azuki team dabbled with TEEs with Flashbots in a social context on Twitter as an introduction to the community on what TEEs are and what they enable. Some background: [Bobu](https://x.com/BobuBeanFarmer) is a fractionalized Azuki NFT who is beloved by the Azuki audience. The stunt involved letting a well-known community member tweet through Bobu’s twitter account. TEEs were central to this experience for guaranteeing through auditability that the community member could only tweet from Bobu’s account under a restricted set of conditions (one time max), even if the underlying OAuth scope granted did not have any such restriction. Below I will break down how the security for this flow works.
 
 Security
 
@@ -20,8 +24,8 @@ The emitted quotes also include a hashed public key of a private key that only t
 See diagram below for more detail:
 
 ![diagram](assets/tee-diagram.jpeg)
-A more detailed writeup of the thread model can be found here (the same principles as the Teleport experiment are being used).
+A more detailed writeup of the thread model can be found [here](https://github.com/Account-Link/teleport-gramine-rs/blob/main/AUDITING.md) (the same principles as the Teleport experiment are being used).
 
 Looking Forward
-The experiment was a success, as it resulted in more education around TEEs to an audience that was previously unfamiliar to it. Some Azuki community members were writing threads educating others on what TEEs were, while others were brainstorming and tweeting out other creative ways this tech could be applied to social. This was the first in a series of experiments: the next one will happen on a larger scale, and many users are already opting in a future magic show via a Bobu invite that walks the user through a TEE authorization flow.
+The experiment was a success, as it resulted in more education around TEEs to an audience that was previously unfamiliar to it. Some Azuki community members were writing threads educating others on what TEEs were, while others were brainstorming and tweeting out other creative ways this tech could be applied to social. This was the first in a series of experiments: the next one will happen on a larger scale, and many users are already opting in a future magic show via a [Bobu invite](https://bobu.azuki.com/magicshow) that walks the user through a TEE authorization flow.
 
