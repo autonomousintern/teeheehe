@@ -24,6 +24,7 @@ The emitted quotes also include a hashed public key of a private key that only t
 See diagram below for more detail:
 
 ![diagram](assets/tee-diagram.jpeg)
+
 A more detailed writeup of the thread model can be found [here](https://github.com/Account-Link/teleport-gramine-rs/blob/main/AUDITING.md) (the same principles as the Teleport experiment are being used).
 
 Looking Forward
