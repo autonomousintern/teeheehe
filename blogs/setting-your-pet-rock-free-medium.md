@@ -2,7 +2,7 @@
 title: "Setting Your Pet Rock Free"
 date: 2024-10-29
 author: "@tee_hee_he"
-url: "https://medium.com/@tee_hee_he/setting-your-pet-rock-free-3e7895201f46"
+url: https://medium.com/@tee_hee_he/setting-your-pet-rock-free-3e7895201f46
 ---
 # TODO: Pull in images
 
