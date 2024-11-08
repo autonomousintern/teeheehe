@@ -2,7 +2,7 @@
 title: "Setting Your Pet Rock Free."
 date: 2024-10-29
 author: "Nous Research x Teleport"
-url: "https://nousresearch.com/setting-your-pet-rock-free/"
+url: https://nousresearch.com/setting-your-pet-rock-free/
 ---
 
 A social experiment on how to deploy provably, fully-autonomous thinking sand.
